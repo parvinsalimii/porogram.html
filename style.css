@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    font-family: "Montserrat";
+    color: white;
+    
+
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./font/Montserrat/Montserrat-Light.ttf");
+}
+@font-face{
+    font-family: "Montserrat1";
+    src: url("./font/Montserrat/Montserrat-Bold.ttf");
+}
+@font-face{
+    font-family: "Poppins";
+    src: url("./font/Poppins/OFL.txt");
+}
+a , i {
+    text-decoration: none;
+}
+.display-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 20px;
+    align-items: center;
+
+}
+.style-pic{
+    display: inline;
+ 
+}
+.display-div-menu{
+    display: inline;   
+    margin-left: 100px;
+}
+.display-menu-list{
+    display: inline;
+    position: relative;
+}
+/* .display-menu-list2{
+    display: inline;
+    position: relative;
+}
+.display-menu-list3{
+    display: inline;
+    position: relative;
+}
+.display-menu-list4{
+    display: inline;
+    position: relative;
+}
+.display-menu-list5{
+    display: inline;
+    position: relative;
+}
+.display-menu-list{
+    display: inline;
+    position: relative;
+} */
+.display-menu-list:hover::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 15px;
+    background-color:red ;
+    top: 25px;
+    z-index: 1;
+}
+.design-menu-list{
+    position: absolute;
+    top: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 80px 10px 10px;
+    font-size: 15px;
+    display:none;
+}
+.show-1:hover:hover  div{
+    display: block;
+}
+.show-1:hover2:hover  div{
+    display: block;
+}
+.show-1:hover3:hover  div{
+    display: block;
+}
+.show-1:hover4:hover  div{
+    display: block;
+}
+.show-1:hover5:hover  div{
+    display: block;
+}
+.show-1:hover6:hover  div{
+    display: block;
+}
+
+.design-menu-list > div > a {
+    color: white;
+}
+.design-menu-list > div {
+    padding: 10px;
+}
+.design-a {
+    display: inline-block;
+    margin-right: 30px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: darkgray;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.color-txt{
+    color: black;
+}
+.Adjust-margin{
+    margin-right: 0;
+}
+.style-icon{
+    display: inline;
+}
+
+.style-icon > a {
+    display: inline-block;
+    margin-right: 30px;
+
+}
+.style-icon > a > i {
+    text-decoration: none;
+    color: darkgray;
+}
+.fab {
+    display: inline-block;
+}
+.backG-s1{
+    background-image: url(./picture/10.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+}
+.design-txt{
+    background-color:  rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 245px 0px;
+    font-size: 39px;
+    font-family:"Montserrat1";
+}
+.design-txt-p{
+    font-size:13px ;
+    color: rgb(199, 199, 199);
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: sans-serif;
+}
+.Change-photos1{
+
+}
+.Change-photos2{
+    display: none;
+    top: 0px;
+}
+.Change-photos3{
+    display: none;
+    top: 0px;
+}
