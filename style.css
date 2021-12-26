@@ -612,8 +612,8 @@ i:hover{
 
 }
 .like-edit-S3{
-    bottom: -15px;
-    left: -15px;
+    bottom: -10px;
+    left: -10px;
 }
 
 .bottom-div-link{
@@ -982,7 +982,7 @@ footer h5{
 
 @media (max-width : 1295px){
     .container{
-        width: 980px;
+        width: 970px;
     }
     .style-pic{
         width: 5%;
